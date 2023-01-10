@@ -1,0 +1,55 @@
+
+
+.navbar-nav .nav-link {
+    color: black !important;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: red !important;
+}
+
+
+body {
+  background-color: inherit;
+    color: black;
+}
+
+body{
+  background-image: url(logo2.jpg);
+    background-size:100%;
+}
+
+.blend{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blend h1{
+  font-size: 80px;
+  mix-blend-mode: overlay;
+}
+
+
+.cirkle img{
+  clip-path: polygon(5% 5%, 100% 10%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%)
+}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
