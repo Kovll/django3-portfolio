@@ -16,8 +16,10 @@ body {
 }
 
 body{
-  background-image: url(logo2.jpg);
-    background-size:100%;
+  background-image: url('https://img5.goodfon.ru/wallpaper/nbig/5/7c/lev-lezhit-temnyi-fon-morda-fotoart.jpg');
+  background-size:100%;
+
+
 }
 
 .blend{
@@ -28,11 +30,6 @@ body{
 .blend h1{
   font-size: 80px;
   mix-blend-mode: overlay;
-}
-
-
-.cirkle img{
-  clip-path: polygon(5% 5%, 100% 10%, 900% 75%, 75% 75%, 75% 100%, 60% 75%, 20% 80%)
 }
 
 
