@@ -28,7 +28,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['kovall.pythonanywhere.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -137,6 +136,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 try:
-    from .loc_settings import *
+    from .local_settings import *
 except ImportError:
     print("Looks like no local. You must be on production")
