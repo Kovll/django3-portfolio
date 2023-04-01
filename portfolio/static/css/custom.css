@@ -1,12 +1,12 @@
 
 
 .navbar-nav .nav-link {
-    color: black !important;
+    color: blue !important;
 
 }
 
 .navbar-nav .nav-link:hover {
-    color: red !important;
+    color: yellow !important;
 }
 
 
@@ -16,10 +16,8 @@ body {
 }
 
 body{
-  background-image: url('https://img5.goodfon.ru/wallpaper/nbig/5/7c/lev-lezhit-temnyi-fon-morda-fotoart.jpg');
+  background-image:  url('https://phonoteka.org/uploads/posts/2021-03/thumbs/1616367236_22-p-fon-dlya-saita-23.jpg');
   background-size:100%;
-
-
 }
 
 .blend{
